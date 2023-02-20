@@ -1,6 +1,6 @@
 # waifu2x-ncnn-vulkan-GUI
 ![ss](https://user-images.githubusercontent.com/16046279/184076563-8d04619b-cd05-42e3-ac5b-cac03b43ce62.png)
-Multilingual GUI for [waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan) and [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan) and [realcugan-ncnn-vulkan](https://github.com/nihui/realcugan-ncnn-vulkan) and [realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan).  
+Multilingual GUI for [waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan), [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan), [realcugan-ncnn-vulkan](https://github.com/nihui/realcugan-ncnn-vulkan) and [realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan).  
 Localization can be done via user-editable xaml file.
 
 This project was forked from https://github.com/f11894/waifu2x-ncnn-vulkan-GUI
