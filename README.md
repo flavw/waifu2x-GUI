@@ -1,6 +1,6 @@
 # waifu2x-ncnn-vulkan-GUI
 ![ss](https://user-images.githubusercontent.com/16046279/184076563-8d04619b-cd05-42e3-ac5b-cac03b43ce62.png)
-Multilingual GUI for [waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan), [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan), [realcugan-ncnn-vulkan](https://github.com/nihui/realcugan-ncnn-vulkan) and [realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan).  
+Windows Multilingual GUI for [waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan), [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan), [realcugan-ncnn-vulkan](https://github.com/nihui/realcugan-ncnn-vulkan) and [realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan).  
 
 This project was forked from https://github.com/f11894/waifu2x-ncnn-vulkan-GUI
 
@@ -18,4 +18,4 @@ This project was forked from https://github.com/f11894/waifu2x-ncnn-vulkan-GUI
   * ab can be found [Here](http://www.loc.gov/standards/iso639-2/php/langcodes-search.php) as Alpha-2 codes
   * XY can be found [Here](https://www.iso.org/obp/ui/#search)
   * Essentially _ab_ is the language, _XY_ is the country
-  * Translators: @yoaan, @xperiazu21, @MartBlur, @martin-varela, @laikal, @flavw, @papjul
+  * Translators: @flavw, @laikal, @martin-varela, @MartBlur, @papjul, @xperiazu21, @yoaan.
