@@ -18,4 +18,4 @@ This project was forked from https://github.com/f11894/waifu2x-ncnn-vulkan-GUI
   * ab can be found [Here](http://www.loc.gov/standards/iso639-2/php/langcodes-search.php) as Alpha-2 codes
   * XY can be found [Here](https://www.iso.org/obp/ui/#search)
   * Essentially _ab_ is the language, _XY_ is the country
-  Translators: @yoaan, @xperiazu21, @MartBlur, @martin-varela, @laikal, @flavw
+  * Translators: @yoaan, @xperiazu21, @MartBlur, @martin-varela, @laikal, @flavw
