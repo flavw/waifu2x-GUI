@@ -1,0 +1,67 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ResourceDictionaryName">waifu2xui-ko-KR</sys:String>
+    <!-- Localized strings -->
+    <sys:String x:Key="MainWnd_Title">waifu2x-ncnn-vulkan 다국어 인터페이스</sys:String>
+    <sys:String x:Key="MainMenu_About">프로그램에 대해서</sys:String>
+    <sys:String x:Key="MainMenu_Help">설명</sys:String>
+    <sys:String x:Key="MainMenu_Version">Version Info</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_IO">설정</sys:String>
+    <!-- Tab:IO -->
+    <sys:String x:Key="Main_IO_SrcPath">열린 파일:</sys:String>
+    <sys:String x:Key="Main_IO_DstPath">출력 위치:</sys:String>
+    <sys:String x:Key="Main_IO_btnSrc">열기</sys:String>
+    <sys:String x:Key="Main_IO_SrcClear">삭제</sys:String>
+    <sys:String x:Key="Main_IO_btnDst">출력 위치 선택</sys:String>
+    <sys:String x:Key="Main_IO_DstClear">삭제</sys:String>
+    <sys:String x:Key="Main_IO_Src_Tooltip">이미지 이름 또는 폴더 이름</sys:String>
+    <sys:String x:Key="Main_IO_Dst_Tooltip">이미지가 출력될 폴더 공백의 경우 입력 이미지와 같은 곳에 이미지를 생성합니다.</sys:String>
+    <sys:String x:Key="Main_IO_OutFiletype">파일 확장자</sys:String>
+    <sys:String x:Key="Main_IO_OutFilequality">화질 설정</sys:String>
+    <!-- Tab:Mode -->
+    <sys:String x:Key="Main_Mode_Set">변환 모드</sys:String>
+    <sys:String x:Key="Main_Mode_Set_NoiseScale">노이즈 제거와 확대</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Scale">확대</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Noise">노이즈 제거</sys:String>
+    <sys:String x:Key="Main_Mode_Set_AutoScale">노이즈 제거 및 확대(JPG한정)</sys:String>
+    <sys:String x:Key="Main_Mode_Scale_rate">확대 설정</sys:String>
+    <sys:String x:Key="Main_Mode_Scale_ratio">확대율로 설정</sys:String>
+    <sys:String x:Key="Main_Mode_Output_width">변환 후의 가로 길이</sys:String>
+    <sys:String x:Key="Main_Mode_Output_height">변환 후의 세로 길이</sys:String>
+    <sys:String x:Key="Main_Mode_Output_width_height">가로x세로로 확대</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise">노이즈 제거</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_0">레벨0</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_1">레벨1</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_2">레벨2</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_3">레벨3</sys:String>
+    <sys:String x:Key="Main_Mode_Model">방식</sys:String>
+    <sys:String x:Key="Main_Mode_Model_CUnet">2D 일러스트 (waifu2x CUnet방식))</sys:String>
+    <sys:String x:Key="Main_Mode_Model_UpRGB">2D 일러스트 (waifu2x UpRGB방식)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_UpPhoto">Photo (UpPhoto방식)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealCugan_se">2D 일러스트 (Real-CUGAN se방식)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealCugan_pro">2D 일러스트 (Real-CUGAN pro방식)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsrgan_x4plus">Photo (Real-ESRGAN realesrgan-x4plus방식)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsrnet_x4plus">Photo (Real-ESRGAN realesrnet-x4plus방식)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsrgan_x4plus_Anime">2D 일러스트 (Real-ESRGAN realesrgan-x4plus-anime방식)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsr_animevideov3">2D 일러스트 (Real-ESRGAN realesr-animevideov3방식)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealSR_DF2K">Photo (RealSR DF2K방식)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealSR_DF2K_JPEG">Photo (RealSR DF2K_JPEG방식)</sys:String> 
+    <sys:String x:Key="Main_Device_Block">조각 크기</sys:String>
+    <sys:String x:Key="Main_Device_gp">장치</sys:String>
+    <sys:String x:Key="Main_Device_GPU_ID">GPU ID</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_Preferences">동작 설정</sys:String>
+    <!-- Tab:Preferences -->
+    <sys:String x:Key="Main_checkStore_output_dir">이전에 출력한 경로를 기억합니다.</sys:String>
+    <sys:String x:Key="Main_checkOutput_no_overwirit">출력 파일을 덮어쓰지 않습니다.</sys:String>
+    <sys:String x:Key="Main_checkSoundBeep">처리가 끝나면 소리로 알립니다.</sys:String>
+    <sys:String x:Key="Main_checkPrecision_fp32">고정밀도 처리(fp32 모드)</sys:String>
+    <sys:String x:Key="Main_checkAlphachannel_ImageMagick">알파 채널을 Image Magick으로 분리하여 처리합니다.</sys:String>
+    <sys:String x:Key="Main_checkKeep_aspect_ratio">종횡비 유지</sys:String>
+    <!-- Run button -->
+    <sys:String x:Key="Main_btnRun">실행</sys:String>
+    <!-- Abort button -->
+    <sys:String x:Key="Main_btnAbort">취소</sys:String>
+</ResourceDictionary>

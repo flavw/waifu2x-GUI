@@ -1,0 +1,67 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ResourceDictionaryName">waifu2xui-fr-FR</sys:String>
+    <!-- Localized strings -->
+    <sys:String x:Key="MainWnd_Title">waifu2x-ncnn-vulkan interface graphique multilingue</sys:String>
+    <sys:String x:Key="MainMenu_About">À propos</sys:String>
+    <sys:String x:Key="MainMenu_Help">Aide</sys:String>
+    <sys:String x:Key="MainMenu_Version">Info de version</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_IO">Paramètres</sys:String>
+    <!-- Tab:IO -->
+    <sys:String x:Key="Main_IO_SrcPath">Source :</sys:String>
+    <sys:String x:Key="Main_IO_DstPath">Destination :</sys:String>
+    <sys:String x:Key="Main_IO_btnSrc">Source</sys:String>
+    <sys:String x:Key="Main_IO_SrcClear">Effacer</sys:String>
+    <sys:String x:Key="Main_IO_btnDst">Destination</sys:String>
+    <sys:String x:Key="Main_IO_DstClear">Effacer</sys:String>
+    <sys:String x:Key="Main_IO_Src_Tooltip">Nom de fichier ou emplacement de dossier. Champ REQUIS.</sys:String>
+    <sys:String x:Key="Main_IO_Dst_Tooltip">Emplacement de destination. Si laissé vide, créera les fichiers dans le dossier source.</sys:String>
+    <sys:String x:Key="Main_IO_OutFiletype">Extension</sys:String>
+    <sys:String x:Key="Main_IO_OutFilequality">Qualité</sys:String>
+    <!-- Tab:Mode -->
+    <sys:String x:Key="Main_Mode_Set">Mode de conversion</sys:String>
+    <sys:String x:Key="Main_Mode_Set_NoiseScale">Réduire le bruit &amp; Agrandir</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Scale">Agrandir uniquement</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Noise">Réduire le bruit uniquement</sys:String>
+    <sys:String x:Key="Main_Mode_Set_AutoScale">Agrandir &amp; Réduire le bruit (jpg uniquement)</sys:String>
+    <sys:String x:Key="Main_Mode_Scale_rate">Agrandissement</sys:String>
+    <sys:String x:Key="Main_Mode_Scale_ratio">Définir la proportion</sys:String>
+    <sys:String x:Key="Main_Mode_Output_width">Définir la largeur (pixels)</sys:String>
+    <sys:String x:Key="Main_Mode_Output_height">Définir la hauteur (pixels)</sys:String>
+    <sys:String x:Key="Main_Mode_Output_width_height">Définir la résolution (pixels)</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise">Réduction du bruit</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_0">Niveau 0</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_1">Niveau 1</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_2">Niveau 2</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_3">Niveau 3</sys:String>
+    <sys:String x:Key="Main_Mode_Model">Modèle</sys:String>
+    <sys:String x:Key="Main_Mode_Model_CUnet">Illustration 2D (modèle waifu2x CUnet)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_UpRGB">Illustration 2D (modèle waifu2x UpRGB)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_UpPhoto">Photo (modèle waifu2x UpPhoto)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_RealCugan_se">Ilustration 2D (modèle Real-CUGAN se)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_RealCugan_pro">Illustration 2D (modèle Real-CUGAN pro)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_RealEsrgan_x4plus">Photo (modèle Real-ESRGAN realesrgan-x4plus)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_RealEsrnet_x4plus">Photo (modèle Real-ESRGAN realesrnet-x4plus)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_RealEsrgan_x4plus_Anime">Illustration 2D (modèle Real-ESRGAN realesrgan-x4plus-anime)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_RealEsr_animevideov3">Illustration 2D (modèle Real-ESRGAN realesr-animevideov3l)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_RealSR_DF2K">Photo (modèle RealSR DF2K)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_RealSR_DF2K_JPEG">Photo (modèle RealSR DF2K_JPEG)</sys:String>
+    <sys:String x:Key="Main_Device_Block">Taille de bloc</sys:String>
+    <sys:String x:Key="Main_Device_gp">Matériel</sys:String>
+    <sys:String x:Key="Main_Device_GPU_ID">ID GPU</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_Preferences">Préférences</sys:String>
+    <!-- Tab:Preferences -->
+    <sys:String x:Key="Main_checkStore_output_dir">Mémoriser le dernier emplacement de destination</sys:String>
+    <sys:String x:Key="Main_checkOutput_no_overwirit">Convertir les fichiers sans écraser ceux existants</sys:String>
+    <sys:String x:Key="Main_checkSoundBeep">Jouer un bip sonore à la fin du traitement</sys:String>
+    <sys:String x:Key="Main_checkPrecision_fp32">Exécuter un traitement de haute précision (mode fp32)</sys:String>
+    <sys:String x:Key="Main_checkAlphachannel_ImageMagick">Séparer les couches alpha avec ImageMagick</sys:String>
+    <sys:String x:Key="Main_checkKeep_aspect_ratio">Maintenir le rapport L/H constant</sys:String>
+    <!-- Run button -->
+    <sys:String x:Key="Main_btnRun">Exécuter</sys:String>
+    <!-- Abort button -->
+    <sys:String x:Key="Main_btnAbort">ANNULER</sys:String>
+</ResourceDictionary>

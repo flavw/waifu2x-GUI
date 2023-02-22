@@ -1,0 +1,67 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ResourceDictionaryName">waifu2xui-ja-JP</sys:String>
+    <!-- Localized strings -->
+    <sys:String x:Key="MainWnd_Title">waifu2x-ncnn-vulkan 多国言語 インタフェース</sys:String>
+    <sys:String x:Key="MainMenu_About">ソフトについて</sys:String>
+    <sys:String x:Key="MainMenu_Help">説明</sys:String>
+    <sys:String x:Key="MainMenu_Version">Version Info</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_IO">設定</sys:String>
+    <!-- Tab:IO -->
+    <sys:String x:Key="Main_IO_SrcPath">入力先:</sys:String>
+    <sys:String x:Key="Main_IO_DstPath">出力先:</sys:String>
+    <sys:String x:Key="Main_IO_btnSrc">入力先選択</sys:String>
+    <sys:String x:Key="Main_IO_SrcClear">クリア</sys:String>
+    <sys:String x:Key="Main_IO_btnDst">出力先選択</sys:String>
+    <sys:String x:Key="Main_IO_DstClear">クリア</sys:String>
+    <sys:String x:Key="Main_IO_Src_Tooltip">画像名もしくはフォルダ名(必要)</sys:String>
+    <sys:String x:Key="Main_IO_Dst_Tooltip">画像の出力先。空白の場合、入力画像と同じフォルダに新しい画像を生成する</sys:String>
+    <sys:String x:Key="Main_IO_OutFiletype">出力拡張子</sys:String>
+    <sys:String x:Key="Main_IO_OutFilequality">出力画質設定</sys:String>
+    <!-- Tab:Mode -->
+    <sys:String x:Key="Main_Mode_Set">変換モード</sys:String>
+    <sys:String x:Key="Main_Mode_Set_NoiseScale">ノイズ除去と拡大</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Scale">拡大</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Noise">ノイズ除去</sys:String>
+    <sys:String x:Key="Main_Mode_Set_AutoScale">ノイズ除去(jpgのみ)と拡大</sys:String>
+    <sys:String x:Key="Main_Mode_Scale_rate">拡大サイズ</sys:String>
+    <sys:String x:Key="Main_Mode_Scale_ratio">拡大率を指定</sys:String>
+    <sys:String x:Key="Main_Mode_Output_width">横幅を指定</sys:String>
+    <sys:String x:Key="Main_Mode_Output_height">縦幅を指定</sys:String>
+    <sys:String x:Key="Main_Mode_Output_width_height">横幅と縦幅を指定</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise">ノイズ除去</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_0">レベル0</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_1">レベル1</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_2">レベル2</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_3">レベル3</sys:String>
+    <sys:String x:Key="Main_Mode_Model">モデル</sys:String>
+    <sys:String x:Key="Main_Mode_Model_CUnet">二次元イラスト (waifu2x CUnetモデル)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_UpRGB">二次元イラスト (waifu2x UpRGBモデル)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_UpPhoto">写真・アニメ (waifu2x UpPhotoモデル)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealCugan_se">アニメ (Real-CUGAN seモデル)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealCugan_pro">アニメ (Real-CUGAN proモデル)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsrgan_x4plus">写真 (Real-ESRGAN realesrgan-x4plusモデル)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsrnet_x4plus">写真 (Real-ESRGAN realesrnet-x4plusモデル)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsrgan_x4plus_Anime">二次元イラスト・アニメ (Real-ESRGAN realesrgan-x4plus-animeモデル)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsr_animevideov3">アニメ (Real-ESRGAN realesr-animevideov3モデル)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealSR_DF2K">写真 (RealSR DF2Kモデル)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealSR_DF2K_JPEG">写真 (RealSR DF2K_JPEGモデル)</sys:String> 
+    <sys:String x:Key="Main_Device_Block">分割サイズ</sys:String>
+    <sys:String x:Key="Main_Device_gp">デバイス</sys:String>
+    <sys:String x:Key="Main_Device_GPU_ID">GPU ID</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_Preferences">動作設定</sys:String>
+    <!-- Tab:Preferences -->
+    <sys:String x:Key="Main_checkStore_output_dir">前回出力したパスを記憶する</sys:String>
+    <sys:String x:Key="Main_checkOutput_no_overwirit">出力ファイルを上書きしない</sys:String>
+    <sys:String x:Key="Main_checkSoundBeep">処理が終わったら音を鳴らす</sys:String>
+    <sys:String x:Key="Main_checkPrecision_fp32">高精度処理を行う(fp32モード)</sys:String>
+    <sys:String x:Key="Main_checkAlphachannel_ImageMagick">アルファチャンネルをImageMagickで分離して処理する</sys:String>
+    <sys:String x:Key="Main_checkKeep_aspect_ratio">縦横比を維持する</sys:String>
+    <!-- Run button -->
+    <sys:String x:Key="Main_btnRun">実行</sys:String>
+    <!-- Abort button -->
+    <sys:String x:Key="Main_btnAbort">キャンセル</sys:String>
+</ResourceDictionary>

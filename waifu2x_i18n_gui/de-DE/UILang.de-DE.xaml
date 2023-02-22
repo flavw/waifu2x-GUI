@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ResourceDictionaryName">waifu2xui-de-DE</sys:String>
+    <!-- Localized strings -->
+    <sys:String x:Key="MainWnd_Title">'waifu2x-caffe' mehrsprachiges grafisches Interface</sys:String>
+    <sys:String x:Key="MainMenu_About">Hilfe</sys:String>
+    <sys:String x:Key="MainMenu_Help">Hilfe</sys:String>
+    <sys:String x:Key="MainMenu_Version">Über</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_IO">Ein-, und Ausgabe</sys:String>
+    <sys:String x:Key="MainTab_Mode">Modus</sys:String>
+    <sys:String x:Key="MainTab_Device">Gerät</sys:String>
+    <!-- Tab:IO -->
+    <sys:String x:Key="Main_IO_SrcPath">Quelle:</sys:String>
+    <sys:String x:Key="Main_IO_DstPath">Ausgabe:</sys:String>
+    <sys:String x:Key="Main_IO_InFiletype">Dateitypen (eingabe)</sys:String>
+    <sys:String x:Key="Main_IO_OutFiletype">Dateitypen (ausgabe)</sys:String>
+    <sys:String x:Key="Main_IO_btnSrc">Quelldatei wählen</sys:String>
+    <sys:String x:Key="Main_IO_btnDst">Zieldatei bestimmen</sys:String>
+    <sys:String x:Key="Main_IO_btnReset">Zurücksetzen</sys:String>
+    <sys:String x:Key="Main_IO_Src_Tooltip">Dateinamen-, oder Ordnerpfad. Pflichtfeld!</sys:String>
+    <sys:String x:Key="Main_IO_Dst_Tooltip">Dateinamen-, oder Ordnerpfad. Wenn leer, wird die neue Datei im Quallordner erstellt!</sys:String>
+    <!-- Tab:Mode -->
+    <sys:String x:Key="Main_Mode_Mag">Vergrößerung (1.0~8.0):</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise">Rauschentfernung</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_None">Keine</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_Weak">Schwach</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_Strong">Stark</sys:String>
+    <sys:String x:Key="Main_Mode_Color">Farbmodus</sys:String>
+    <sys:String x:Key="Main_Mode_Color_RGB">RGB</sys:String>
+    <sys:String x:Key="Main_Mode_Color_Y">nur-Y</sys:String>
+    <sys:String x:Key="Main_Mode_Color_Photo">Bild</sys:String>
+    <!-- Tab:Device -->
+    <sys:String x:Key="Main_Device_Compute">Rechengerät</sys:String>
+    <sys:String x:Key="Main_Device_Compute_CPU">CPU</sys:String>
+    <sys:String x:Key="Main_Device_Compute_CUDA">CUDA</sys:String>
+    <sys:String x:Key="Main_Device_Compute_CUDNN">cuDNN</sys:String>
+    <sys:String x:Key="Main_Device_Block">Block Größe</sys:String>
+    <!-- Run button -->
+    <sys:String x:Key="Main_btnRun">Start!</sys:String>
+    <!-- Abort button -->
+    <sys:String x:Key="Main_btnAbort">ABBRUCH</sys:String>
+</ResourceDictionary>
