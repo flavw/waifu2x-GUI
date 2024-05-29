@@ -1,0 +1,67 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ResourceDictionaryName">waifu2xui-it-IT</sys:String>
+    <!-- Localized strings -->
+    <sys:String x:Key="MainWnd_Title">waifu2x-ncnn-vulkan interfaccia multilingue</sys:String>
+    <sys:String x:Key="MainMenu_About">Informazioni</sys:String>
+    <sys:String x:Key="MainMenu_Help">Aiuto</sys:String>
+    <sys:String x:Key="MainMenu_Version">Informazioni sulla versione</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_IO">Impostazioni</sys:String>
+    <!-- Tab:IO -->
+    <sys:String x:Key="Main_IO_SrcPath">Fonte:</sys:String>
+    <sys:String x:Key="Main_IO_DstPath">Destinazione:</sys:String>
+    <sys:String x:Key="Main_IO_btnSrc">Fonte</sys:String>
+    <sys:String x:Key="Main_IO_SrcClear">Cancella</sys:String>
+    <sys:String x:Key="Main_IO_btnDst">Destinazione</sys:String>
+    <sys:String x:Key="Main_IO_DstClear">Cancella</sys:String>
+    <sys:String x:Key="Main_IO_Src_Tooltip">Nome file o percorso della cartella. Campo OBBLIGATORIO</sys:String>
+    <sys:String x:Key="Main_IO_Dst_Tooltip">Percorso di destinazione dell'output. Se vuoto, genera un nuovo file nella cartella di origine</sys:String>
+    <sys:String x:Key="Main_IO_OutFiletype">Tipo output</sys:String>
+    <sys:String x:Key="Main_IO_OutFilequality">Qualità dell'output</sys:String>
+    <!-- Tab:Mode -->
+    <sys:String x:Key="Main_Mode_Set">Modalità di conversione</sys:String>
+    <sys:String x:Key="Main_Mode_Set_NoiseScale">Riduci rumore e ingrandisci</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Scale">Solo ingrandimento</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Noise">Solo riduzione rumore</sys:String> 
+    <sys:String x:Key="Main_Mode_Set_AutoScale">Ingrandisci e riduci rumore (solo jpg)</sys:String>
+    <sys:String x:Key="Main_Mode_Scale_rate">Dimensione di ingrandimento</sys:String>
+    <sys:String x:Key="Main_Mode_Scale_ratio">Imposta tasso</sys:String>
+    <sys:String x:Key="Main_Mode_Output_width">Imposta larghezza (pixel)</sys:String>
+    <sys:String x:Key="Main_Mode_Output_height">Imposta altezza (pixel)</sys:String>
+    <sys:String x:Key="Main_Mode_Output_width_height">Imposta risoluzione (pixel)</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise">Riduci rumore</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_0">Livello 0</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_1">Livello 1</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_2">Livello 2</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_3">Livello 3</sys:String>
+    <sys:String x:Key="Main_Mode_Model">Modello</sys:String>
+    <sys:String x:Key="Main_Mode_Model_CUnet">Illustrazione 2D (Modello waifu2x CUnet)</sys:String>
+    <sys:String x:Key="Main_Mode_Model_UpRGB">Illustrazione 2D (Modello waifu2x UpRGB)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_UpPhoto">Foto (Modello waifu2x UpPhoto)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealCugan_se">Illustrazione 2D (Modello Real-CUGAN se)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealCugan_pro">Illustrazione 2D (Modello Real-CUGAN pro)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsrgan_x4plus">Foto (Modello Real-ESRGAN realesrgan-x4plus)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsrnet_x4plus">Foto (Modello Real-ESRGAN realesrnet-x4plus)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsrgan_x4plus_Anime">Illustrazione 2D (Modello Real-ESRGAN realesrgan-x4plus-anime)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealEsr_animevideov3">Illustrazione 2D (Modello Real-ESRGAN realesr-animevideov3)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealSR_DF2K">Foto (Modello RealSR DF2K)</sys:String> 
+    <sys:String x:Key="Main_Mode_Model_RealSR_DF2K_JPEG">Foto (Modello RealSR DF2K_JPEG)</sys:String> 
+    <sys:String x:Key="Main_Device_Block">Dimensione del blocco</sys:String>
+    <sys:String x:Key="Main_Device_gp">Dispositivo</sys:String>
+    <sys:String x:Key="Main_Device_GPU_ID">ID GPU</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_Preferences">Preferenze</sys:String>
+    <!-- Tab:Preferences -->
+    <sys:String x:Key="Main_checkStore_output_dir">Memorizza l'ultimo percorso di output</sys:String>
+    <sys:String x:Key="Main_checkOutput_no_overwirit">I file di output non sovrascrivono</sys:String>
+    <sys:String x:Key="Main_checkSoundBeep">Riproduci beep dopo l'elaborazione</sys:String>
+    <sys:String x:Key="Main_checkPrecision_fp32">Esegui elaborazione ad alta precisione (modalità fp32)</sys:String>
+    <sys:String x:Key="Main_checkAlphachannel_ImageMagick">Separa i canali alfa con ImageMagick</sys:String>
+    <sys:String x:Key="Main_checkKeep_aspect_ratio">Mantieni proporzioni</sys:String>
+    <!-- Run button -->
+    <sys:String x:Key="Main_btnRun">Esegui!</sys:String>
+    <!-- Abort button -->
+    <sys:String x:Key="Main_btnAbort">ANNULLA</sys:String>
+</ResourceDictionary>
