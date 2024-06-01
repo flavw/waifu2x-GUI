@@ -1,9 +1,9 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
     <sys:String x:Key="ResourceDictionaryName">waifu2xui-it-IT</sys:String>
     <!-- Localized strings -->
-    <sys:String x:Key="MainWnd_Title">waifu2x-ncnn-vulkan interfaccia multilingue</sys:String>
+    <sys:String x:Key="MainWnd_Title">Interfaccia Multilingue per waifu2x-ncnn-vulkan e simili</sys:String>
     <sys:String x:Key="MainMenu_About">Informazioni</sys:String>
     <sys:String x:Key="MainMenu_Help">Aiuto</sys:String>
     <sys:String x:Key="MainMenu_Version">Informazioni sulla versione</sys:String>
@@ -55,7 +55,7 @@
     <sys:String x:Key="MainTab_Preferences">Preferenze</sys:String>
     <!-- Tab:Preferences -->
     <sys:String x:Key="Main_checkStore_output_dir">Memorizza l'ultimo percorso di output</sys:String>
-    <sys:String x:Key="Main_checkOutput_no_overwirit">I file di output non sovrascrivono</sys:String>
+    <sys:String x:Key="Main_checkOutput_no_overwirit">Se esistono, i file nella cartella output non saranno sovrascritti</sys:String>
     <sys:String x:Key="Main_checkSoundBeep">Riproduci beep dopo l'elaborazione</sys:String>
     <sys:String x:Key="Main_checkPrecision_fp32">Esegui elaborazione ad alta precisione (modalità fp32)</sys:String>
     <sys:String x:Key="Main_checkAlphachannel_ImageMagick">Separa i canali alfa con ImageMagick</sys:String>
