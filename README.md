@@ -4,6 +4,9 @@ Windows Multilingual GUI for [waifu2x-ncnn-vulkan](https://github.com/nihui/waif
 
 This project was forked from https://github.com/f11894/waifu2x-ncnn-vulkan-GUI
 
+## Download
+Download [here](https://github.com/flavw/waifu2x-ncnn-vulkan-GUI/releases/download/2.1.1.3/waifu2x-ncnn-vulkan-GUI_2.1.1.3.zip)
+
 ## Localization
 1. Localization can be done via user-editable xaml file.
 2. The localization files have the name UILang._language-code_.xaml; where _language-code_ is a 5-character identifier like en-US, zh-TW, ja-JP.
