@@ -1,8 +1,10 @@
 # waifu2x-GUI
 ![ss](https://user-images.githubusercontent.com/16046279/184076563-8d04619b-cd05-42e3-ac5b-cac03b43ce62.png)
-Windows Multilingual GUI for [waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan), [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan), [realcugan-ncnn-vulkan](https://github.com/nihui/realcugan-ncnn-vulkan) and [realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan).  
+Windows Multilingual GUI for [waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan), [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan), [realcugan-ncnn-vulkan](https://github.com/nihui/realcugan-ncnn-vulkan) and [realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan).
 
-This project was forked from [waifu2x-ncnn-vulkan-GUI](https://github.com/RxinnotRstar/waifu2x-ncnn-vulkan-GUI). The original developer is [f11894](https://github.com/f11894)
+Waifu2x is an image scaling and noise reduction program designed primarily for anime-style art, but it can also be used for other types of photos. It was inspired by the Super-Resolution Convolutional Neural Network (SRCNN) and uses deep learning techniques to upscale images while reducing noise.
+
+This project was forked from [waifu2x-ncnn-vulkan-GUI](https://github.com/RxinnotRstar/waifu2x-ncnn-vulkan-GUI). The original developer is [f11894](https://github.com/f11894).
 
 ## Download
 Download [here](https://github.com/flavw/waifu2x-ncnn-vulkan-GUI/releases/download/2.1.1.3/waifu2x-ncnn-vulkan-GUI_2.1.1.3.zip)
